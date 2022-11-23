@@ -1,0 +1,55 @@
+@import url("nav.css");
+@import url("footer.css");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'ABeeZee', sans-serif;
+}
+.perfil-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    height: 700px;
+    padding: 50px;
+    gap: 50px;
+}
+.text{
+    width: 50%;
+}
+.text h1{
+    color: #3bb657;
+    font-size: 50px;
+    font-weight: 800;
+    margin: 10px 0px 20px 0px;
+    text-align: center;
+}
+.text p{
+    color: rgb(41, 41, 74);
+    padding: 20px;
+}
+.img-box{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.img-box h2,h3{
+    margin: 0px 0px 20px 0px;
+}
+.img-box h2{
+    font-size: 30px;
+}
+.img-box h3{
+    color: #3bb657;
+    font-size: 15px;
+}
+.img-box img{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+}
