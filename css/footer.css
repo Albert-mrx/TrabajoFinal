@@ -1,0 +1,47 @@
+@import url('https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+footer{
+    height: 500px;
+    width: 100%;
+    background: #2f2f2f;
+}
+.footer-box{
+    display: flex;
+    padding: 100px 0px 50px 50px;
+}
+.contact-box{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-top: 100px;
+}
+.contact-box h4{
+    color: aliceblue;
+    padding: 7px;
+    font-size: 30px;
+}
+.contact-box p{
+    color: aliceblue;
+}
+.icon-box{
+    width: 50%;
+    margin-left: 400px;
+    margin-top: 150px;
+}
+.icon-box ul{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+}
+.icon-box ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #80ed99;
+}
+.icon-box ul li a:hover{
+    color: aliceblue;
+}
